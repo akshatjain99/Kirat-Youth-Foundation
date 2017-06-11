@@ -4,23 +4,6 @@ $(function() {
     var rel = $('body[rel]').attr('rel');
     $('.main.menu a:eq(' + rel + ') , #side a:eq(' + rel + ')').addClass('active');
 
-     //fix menu when passed
-      $('.masthead')
-        .visibility({
-          once: false,
-          onBottomPassed: function() {
-            $('.fixed.menu').transition('fade in');
-          },
-          onBottomPassedReverse: function() {
-            $('.fixed.menu').transition('fade out');
-          }
-        })
-      ;
-      //Changing the active item in following menu
-      var rel = $('body[rel]').attr('rel');
-    $('.fixed.menu a:eq(' + rel + ') , #side a:eq(' + rel + ')').addClass('active');
-
-
     // create sidebar and attach to menu open
 
     $('.sidebar-icon > .sidebar.icon').on('click', function() {
@@ -29,7 +12,7 @@ $(function() {
 
 
     });
-
+  //nav.js plugin code
   //  var nav = responsiveNav(".nav-collapse", {
   //      animate: true,
   //      transition: 100000000,

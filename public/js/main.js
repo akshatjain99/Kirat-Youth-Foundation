@@ -20,7 +20,7 @@ $(function() {
       var rel = $('body[rel]').attr('rel');
     $('.fixed.menu a:eq(' + rel + ') , #side a:eq(' + rel + ')').addClass('active');
 
-    
+
     // create sidebar and attach to menu open
 
     $('.sidebar-icon > .sidebar.icon').on('click', function() {
@@ -30,4 +30,9 @@ $(function() {
 
     });
 
+  //  var nav = responsiveNav(".nav-collapse", {
+  //      animate: true,
+  //      transition: 100000000,
+  //      });
+  //  nav.toggle();
 });

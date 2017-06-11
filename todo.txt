@@ -1,0 +1,6 @@
+1.responsiveness margin
+2. header active classes
+2.5. nav.js transitions not working
+3. make everything beautiful
+4. background images? 
+5. skroll.js-- maybe if need be

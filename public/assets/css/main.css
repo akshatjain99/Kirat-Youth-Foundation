@@ -1,0 +1,94 @@
+/*Header CSS starts*/
+header {
+  min-height: 100%;
+  margin-bottom: 2rem;
+  background-color: #26173E; }
+
+#Followingmenu{
+	display: none;
+}
+
+
+
+#headertext {
+  margin-top: 1em;
+  font-size: 4em;
+  font-weight: normal;
+  color: #D8DCDB;
+  text-align: center; }
+
+
+.sidebar-icon {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  color: white;
+  min-height: 3.5rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+
+.masthead {
+  min-height: 350px;
+  padding: 1em 0em;
+}
+
+
+.masthead .ui.header {
+  margin-top: 1em;
+  font-size: 4em;
+  font-weight: normal;
+  color: #D8DCDB;
+  text-align: center; }
+/*Header CSS ends*/
+
+
+/*Main CSS starts*/
+#events{
+	border-style: solid;
+	padding: 0;
+}
+
+.main.grid {
+  min-height: 400px; }
+.hidden {
+  display: none; }
+
+/*Main CSS ends*/
+
+/*Footer CSS*/
+footer.ui.segment {
+  margin-top: 2rem;
+  min-width: 100%;
+  background-color: #EDAB23;
+  min-height: 20px;
+  border-radius: 0; }
+
+/*Media Queries*/
+@media screen and (max-width: 700px) {
+  .main.menu {
+    display: none; }
+  .sidebar-icon {
+    display: block; } }
+
+ @media screen and (max-width: 450px) {
+  .masthead .ui.header {
+    margin-top: 1.5em;
+    font-size: 2.75em; } }
+
+@media screen and (min-width: 701px) {
+  .sidebar-icon {
+    display: none; } }
+
+
+.middle.aligned {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center; }

@@ -33,6 +33,8 @@ default: open sans and roboto- chose open sans
 
  semantic- basic- no fill- done 
 
- stripe.com: see css
+ stripe.com: see css- used svg with adobe illustrator
 
  bootstrap nav-collapse: see logic behind it an apply in semantic
+
+ uss css3 shadows for effects? rows and events/calendar to make them look like cards

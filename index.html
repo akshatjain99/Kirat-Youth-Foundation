@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="public/lib/css/responsive-nav.css" />
     <link rel="stylesheet" href="public/assets/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 </head>
 
 <body rel="0" class="pusher">
@@ -22,8 +23,8 @@
         <a class="item" href="#row5">Contact Us</a>
     </div>
     <!-- Page Contents -->
-    <div class="pusher" id="home">
-        <header>       
+    <div class="pusher fullpage" id="home">
+        <header class="section">       
             <div id="headercontainer" class="ui container masthead">
                 <div class="sidebar-icon">
                         <i class="large sidebar icon"></i>
@@ -50,12 +51,12 @@
                         <source src="public/assets/video/Cable_Car.mp4" type="video/mp4">
                     </video>                 
                     <div id="headermenu" class="ui secondary pointing fixed main menu">
-                        <a class="item" href="index.html">Home</a>
-                        <a class="item" href="#row1">About Us</a>
-                        <a class="item" href="#row2">What We Do</a>
-                        <a class="item" href="#row3">Get Involved</a>
-                        <a class="item" href="#row4">Donate</a>
-                        <a class="item" href="#row5">Contact Us</a>
+                        <a class="item smoothScroll" href="index.html">Home</a>
+                        <a class="item smoothScroll" href="#row1">About Us</a>
+                        <a class="item smoothScroll" href="#row2">What We Do</a>
+                        <a class="item smoothScroll" href="#row3">Get Involved</a>
+                        <a class="item smoothScroll" href="#row4">Donate</a>
+                        <a class="item smoothScroll" href="#row5">Contact Us</a>
                         <div id="sociallinks" class="right item">
                             <a href="https://www.facebook.com/aismvalum/" target="_blank">
                                 <i class="icon big facebook"></i>
@@ -72,7 +73,7 @@
         </header>
         <!--Actual Contents-->
         <div class="ui middle aligned container main grid">
-            <div id="row1" class="row">
+            <div id="row1" class="row section">
                 <h1 class="ui horizontal header divider"> About Us </h1>
                 <div class="sixteen wide mobile tablet eight wide computer column">
                     <h2 class="ui header middle aligned"><span>Who we are</span></h2>
@@ -83,7 +84,7 @@
                     <img class="hidden" src="#">
                 </div>
             </div>
-            <div id="row2" class="row">
+            <div id="row2" class="row section">
                 <h1 class="ui horizontal header divider"> What We Do </h1>
                 <div class="sixteen wide mobile tablet four wide computer column" id="events">
                     <h2 class="ui header middle aligned"><span>Event 1</span></h2>
@@ -111,7 +112,7 @@
                     <h2 class="ui header middle aligned"><span>State 4</span></h2>
                 </div> 
             </div>
-            <div id="row3" class="row">
+            <div id="row3" class="row section">
                 <h1 class="ui horizontal header divider"> Work With Us </h1>
                 <div class="sixteen wide mobile tablet eight wide computer column">
                     <h2 class="ui header middle aligned"><span>Internships</span></h2>
@@ -126,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div id="row4" class="row">
+            <div id="row4" class="row section">
                 <h1 class="ui horizontal header divider"> Donate </h1>
                 <div class="sixteen wide column">
                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies eget metus ac maximus. Sed sollicitudin ante nisl, id molestie erat accumsan vitae. Nulla bibendum sodales sapien, at pharetra odio sollicitudin et. Praesent id semper diam, ac aliquet metus. Nullam sed enim aliquet, finibus velit at, volutpat nibh. Nullam luctus nisl non tincidunt scelerisque. Phasellus efficitur, nisi non vehicula varius, elit justo gravida est, aliquam lacinia ex justo eu elit. Suspendisse vel risus mauris. </p>
@@ -135,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div id="row5" class="row">
+            <div id="row5" class="row section">
                 <h1 class="ui horizontal header divider">Contact Us</h1>
                 <div class="sixteen wide mobile tablet eight wide computer column">
                     <h2 class="ui header middle aligned"><span>Get in Touch</span></h2>
@@ -165,6 +166,7 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="semantic/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="public/lib/js/smoothscroll.js"></script>
     <script type="text/javascript" src="public/js/main.js"></script>
 </body>
 

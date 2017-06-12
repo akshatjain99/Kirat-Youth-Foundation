@@ -14,23 +14,25 @@ background image: stock picture(kaunsi picture, FB pe koi nahi hai)- from FB pag
 
 header: fixed header only, fb/social link/-done smooth scroll, plugin- GIVE BATRA ACCESS TO GITHUB
 
-coolors.co- good color combination: FB PAGE- done 
+coolors.co- good color combination: FB PAGE- decided. included a png
 
-microsoft.com- different colors, use acche different colors
+microsoft.com- different colors, use acche different colors- color scheme done
  outlook.com- used svg tag and created a polygon that matches the color below
- slant line after every image
+ slant line after every image^
 
 
-Ggbsocial- font: karla: google font- nice professional- only one font
+Ggbsocial- font: karla: google font- nice professional- only one font- done
 
-default: open sans and roboto
- read online on how to chose fonts- only simple and professional- no katai
+default: open sans and roboto- chose open sans
+ read online on how to chose fonts- only simple and professional- no katai- done
 
- replace semantic default font
+ replace semantic default font- done(i guess, just need to check)
 
 
- footer: COPYRIGHT 2016 GGB - SUSTAINABLE DEVELOPMENT: social links: contact
+ footer: COPYRIGHT 2016 GGB - SUSTAINABLE DEVELOPMENT: social links: contact- done- need to see alignment 
 
  semantic- basic- no fill- done 
 
  stripe.com: see css
+
+ bootstrap nav-collapse: see logic behind it an apply in semantic

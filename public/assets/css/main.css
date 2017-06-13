@@ -9,11 +9,7 @@ header {
 #headermenu, #sociallinks{
   margin: 0 1.5em;
   color: #420039;
-    z-index: 9999;
-}
-
-.row{
-    min-height: 100vh;
+  z-index: 9999;
 }
 
 
@@ -66,14 +62,21 @@ header {
 
 
 /*Main CSS starts*/
+
+.ui.grid{
+  min-width: 100% !important;
+}
+.section{
+  min-height: 100vh;
+}
 #events{
 	border-style: solid;
 	padding: 0;
 }
 
 .main.grid {
-  min-height: 400px; 
-  min-width: 100%;
+  min-height: 100vh; 
+  min-width: 100vh;
 }
 
 
@@ -92,11 +95,25 @@ div [class*="right floated"] {
   color: #420039;
 }
 
-#row1{
+#row1, #headerCurve1{
   background-color:#d72638; 
 }
 
+#row2, #headerCurve2{
+  background-color:#420039; 
+}
 
+#row3, #headerCurve3{
+  background-color:#002b80; 
+}
+
+#row4, #headerCurve4{
+  background-color:#ffc00a; 
+}
+
+#row5, #headerCurve5{
+  background-color:#dc0037; 
+}
 
 /*Main CSS ends*/
 

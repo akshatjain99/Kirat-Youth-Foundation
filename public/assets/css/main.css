@@ -66,9 +66,12 @@ header {
 .ui.grid{
   min-width: 100% !important;
 }
+
 .section{
   min-height: 100vh;
 }
+
+
 #events{
 	border-style: solid;
 	padding: 0;
@@ -95,7 +98,7 @@ div [class*="right floated"] {
   color: #420039;
 }
 
-#row1, #headerCurve1{
+#about, #headerCurve1{
   background-color:#d72638; 
 }
 

@@ -7,12 +7,14 @@ header {
 
 
 #headermenu, #sociallinks{
-  margin: 0 1.5em;
+
   color: #420039;
   z-index: 9999;
 }
 
-
+#sociallinks{
+    margin: 0 1.5em;
+}
 #headercontainer{
   margin-right: 0 !important;
   margin-left: 0 !important;

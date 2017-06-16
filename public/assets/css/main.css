@@ -79,10 +79,10 @@ header {
 	padding: 0;
 }
 
-.main.grid {
+/*.main.grid {
   min-height: 100vh; 
   min-width: 100vh;
-}
+} */
 
 
 .hidden {
@@ -108,7 +108,7 @@ div [class*="right floated"] {
   background-color:#420039; 
 }
 
-#row3, #headerCurve3{
+#work, #headerCurve3{
   background-color:#002b80; 
 }
 

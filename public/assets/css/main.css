@@ -100,6 +100,11 @@ div [class*="right floated"] {
   color: #420039;
 }
 
+.team{
+  background-color:#002b80; 
+}
+
+
 #logo{
   width: 50%;
 }

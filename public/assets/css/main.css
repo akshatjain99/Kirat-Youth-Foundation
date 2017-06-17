@@ -100,6 +100,10 @@ div [class*="right floated"] {
   color: #420039;
 }
 
+#logo{
+  width: 50%;
+}
+
 #about, #headerCurve1{
   background-color:#d72638; 
 }
@@ -120,6 +124,31 @@ div [class*="right floated"] {
   background-color:#dc0037; 
 }
 
+.box1{
+  margin:0 auto;
+}
+
+
+#box1_content{
+  border:2px dashed #F7EEEE;
+  border-radius:5px;
+}
+.shadow1{
+   position:relative;
+   box-shadow: 0 10px 40px rgba(232, 255, 10, 0.3), 0 10px 20px rgba(225, 222, 10, 0.1) inset;
+
+}
+
+.shadow1:before, .shadow1:after{
+  content:"";
+  position:absolute;
+  bottom:0;top:2px;left:15px;right:15px;
+  z-index:-1;
+  border-radius:100px/30px;
+ -webkit-box-shadow:0 0 30px 2px #479F41;
+  -moz-box-shadow:0 0 30px 2px #479F41;
+  box-shadow: 0 0 30px 2px #479F41;
+}
 /*Main CSS ends*/
 
 /*Footer CSS*/

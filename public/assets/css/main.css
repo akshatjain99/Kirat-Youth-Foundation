@@ -154,6 +154,31 @@ div [class*="right floated"] {
   -moz-box-shadow:0 0 30px 2px #479F41;
   box-shadow: 0 0 30px 2px #479F41;
 }
+
+#row2{
+  color:#ffc00a;
+}
+
+#row2 h1{
+  color:#ffc00a;
+}
+
+#row2 h2{
+  color:#ffc00a;
+}
+
+#work{
+  color:white;
+}
+
+#work h1{
+  color:white;
+}
+
+#work h2{
+  color:white;
+}
+
 /*Main CSS ends*/
 
 /*Footer CSS*/

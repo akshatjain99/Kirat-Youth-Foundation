@@ -15,6 +15,17 @@
             justify-content: space-between;
 }
 
+.TeamCard{
+	margin-bottom: 1em !important;
+}
+
+.card{
+	margin: 0 auto !important;
+}
+.TeamImage{
+	margin: 0;
+}
+
 #HeaderText {
     min-height: 100vh;
 }
@@ -29,7 +40,7 @@
 }
 
 
-#about{
+#About, #Team{
 	background-color: #DB2828;
 }
 .middle.aligned {
@@ -40,7 +51,7 @@
     justify-content: space-around;
     -ms-flex-align: center;
     -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
 }
 
 .right_floated {

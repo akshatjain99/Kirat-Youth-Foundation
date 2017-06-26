@@ -34,12 +34,6 @@
     height: 46px;
 }
 
-.ui.grid{
-	min-height: 100vh;
-	min-width: 100% !important;
-}
-
-
 #About, #Team{
 	background-color: #DB2828;
 }
@@ -59,9 +53,6 @@
     margin-right: 1.5em;
 }
 
-.row{
-	margin: 0 1em;
-}
 
 #logo{
 	height: 60%;

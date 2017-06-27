@@ -19,6 +19,12 @@
 	margin-bottom: 1em !important;
 }
 
+.EventCard{
+	margin: 1em 0 !important;
+
+}
+
+
 .card{
 	margin: 0 auto !important;
 }
@@ -34,8 +40,12 @@
     height: 46px;
 }
 
-#About, #Team{
+#About, #Team, #Events{
 	background-color: #DB2828;
+}
+
+#Events{
+	margin-top: 1em;
 }
 .middle.aligned {
     display: -ms-flexbox;
@@ -55,9 +65,19 @@
 
 
 #logo{
-	height: 60%;
+	margin-top: 1em;
+	width: 400px; 
+	max-width: 100%;
+	display:block; 
+	height: auto;
 }
 
+#StateImage{
+	width: 350px; 
+	max-width: 100%;
+	display:block; 
+	height: auto;
+}
 
 .hero-image {
   background-color: #DB2828;

@@ -1,0 +1,3 @@
+need to make list in internships
+need to implement smoothScroll.js
+SVG?!

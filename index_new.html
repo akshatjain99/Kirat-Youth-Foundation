@@ -18,12 +18,12 @@
 <body class="pusher">
     <!-- Sidebar Menu -->
     <div id="SideMenu" class="ui vertical inverted right sidebar menu">
-        <a class="item" href="#">Home</a>
-        <a class="item" href="#">About Us</a>
-        <a class="item" href="#">What We Do</a>
-        <a class="item" href="#">Get Involved</a>
-        <a class="item" href="#">Donate</a>
-        <a class="item" href="#">Contact Us</a>
+        <a class="item" href="#HeaderText">Home</a>
+        <a class="item" href="#About">About Us</a>
+        <a class="item" href="#Team">Our Team</a>
+        <a class="item" href="#Events">What We Do</a>
+        <a class="item" href="#Work">Get Involved</a>
+        <a class="item" href="#ContactUs">Contact Us</a>
     </div>
     <!--Contents-->
     <header>
@@ -36,10 +36,10 @@
         <div id="menu" class="ui fixed main menu red inverted">
             <a class="item menuitem active smoothScroll" href="#HeaderText">Home</a>
             <a class="item menuitem smoothScroll" href="#About">About Us</a>
+            <a class="item menuitem smoothScroll" href="#Team">Our Team</a>
             <a class="item menuitem smoothScroll" href="#Events">What We Do</a>
             <a class="item menuitem smoothScroll" href="#Work">Get Involved</a>
-            <a class="item menuitem smoothScroll" href="#row4">Donate</a>
-            <a class="item menuitem smoothScroll" href="#row5">Contact Us</a>
+            <a class="item menuitem smoothScroll" href="#ContactUs">Contact Us</a>
             <div class="socialIcon right item">
                 <a href="https://www.facebook.com/kyfindia/" target="_blank">
                     <i class="icon big facebook"></i>
@@ -54,7 +54,7 @@
     </section>
     <section id="About">
         <div class="ui center aligned container grid">
-            <h1 class="ui header"> About Us </h1>
+            <h1 class="ui header" id="SectionHeader"> About Us </h1>
             <div class="row">
                 <div class="sixteen wide mobile tablet eight wide computer column">
                     <h2 class="ui header middle aligned"><span>Who we are</span></h2>
@@ -69,11 +69,14 @@
             </div>
         </div>
     </section>
+    <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve1" role="presentation" aria-hidden="true">
+    	<polygon points="1280 0 1280 70 0 70" fill="rgb(66,0,57)"></polygon>
+    </svg>
     <section id="Team">
         <div class="ui center aligned container grid">
-        <h1 class="ui header"> Our Team </h1>
+        <h1 class="ui header" id="SectionHeader"> Our Team </h1>
         <div class="row">
-            <div class="sixteen wide mobile tablet three wide computer column middle aligned TeamCard">
+            <div class="sixteen wide mobile tablet three wide computer column middle aligned ">
                 <div class="ui raised yellow card">
                     <div class="image">
                         <img src="public\assets\img\AMANPREET.png" class="ui image middle aligned">
@@ -84,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sixteen wide mobile tablet three wide computer column middle aligned TeamCard">
+            <div class="sixteen wide mobile tablet three wide computer column middle aligned ">
                 <div class="ui raised yellow card">
                     <div class="image">
                         <img src="public\assets\img\RAJAT.jpg" class="ui image middle aligned">
@@ -95,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sixteen wide mobile tablet three wide computer column middle aligned TeamCard">
+            <div class="sixteen wide mobile tablet three wide computer column middle aligned ">
                 <div class="ui raised yellow card">
                     <div class="image">
                         <img src="public\assets\img\KUSHAGRA.jpg" class="ui image middle aligned">
@@ -106,7 +109,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sixteen wide mobile tablet three wide computer column middle aligned TeamCard">
+            <div class="sixteen wide mobile tablet three wide computer column middle aligned ">
                 <div class="ui raised yellow card">
                     <div class="image">
                         <img src="public\assets\img\SAUMYA.jpg" class="ui image middle aligned">
@@ -117,7 +120,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sixteen wide mobile tablet three wide computer column middle aligned TeamCard">
+            <div class="sixteen wide mobile tablet three wide computer column middle aligned ">
                 <div class="ui raised yellow card">
                     <div class="image">
                         <img src="public\assets\img\ANNA.jpg" class="ui image middle aligned">
@@ -131,16 +134,19 @@
         </div>
         </div>
     </section>
+    <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve2" role="presentation" aria-hidden="true">
+    	<polygon points="1280 0 1280 70 0 70" fill="rgb(219, 40, 40)"></polygon>
+    </svg>
     <section id="Events">
         <div class="ui center aligned container grid">
-        	<h1 class="ui header"> What We Do </h1>
+        	<h1 class="ui header" id="SectionHeader"> What We Do </h1>
         	<div class="row">
         		<div class="sixteen wide mobile tablet eight wide computer column middle aligned EventCard">
         			<div class="ui raised text padded container segment">
         				<div class="ui center aligned grid">
         					<div class="row">
         						<div class="sixteen wide mobile tablet eight wide computer column middle aligned">
-        							<img src="public\assets\img\iCLEAN.jpeg" class="ui image middle aligned">
+        							<img src="public\assets\img\iCLEAN.jpg" class="ui image middle aligned">
         						</div>
         						<div class="sixteen wide mobile tablet eight wide computer column middle aligned">
         							<h1 class="ui header">iClean </h1>
@@ -155,7 +161,7 @@
         				<div class="ui center aligned grid">
         					<div class="row">
         						<div class="sixteen wide mobile tablet eight wide computer column middle aligned">
-        							<img src="public\assets\img\SORT.SHINE.SUSTAIN.jpeg" class="ui image middle aligned">
+        							<img src="public\assets\img\SORT.SHINE.SUSTAIN.jpg" class="ui image middle aligned">
         						</div>
         						<div class="sixteen wide mobile tablet eight wide computer column middle aligned">
         							<h1 class="ui header">Sort. Shine. Sustain </h1>
@@ -197,10 +203,10 @@
         		<h1 class="ui header"> Our State Chapters </h1>
         		<div class="ui raised very padded container grid">
         			<div class="row">
-        				<div class="sixteen wide mobile tablet eight wide computer column middle aligned TeamCard">
+        				<div class="sixteen wide mobile tablet eight wide computer column middle aligned ">
         					<img src="public\assets\img\KARNATAKA.png" class="ui image middle aligned" id="StateImage">
         				</div>
-        				<div class="sixteen wide mobile tablet eight wide computer column middle aligned TeamCard">
+        				<div class="sixteen wide mobile tablet eight wide computer column middle aligned ">
         					<h1 class="ui header"> KARNATAKA  </h1>
         					<p>Kirat Youth Foundation entered into Karnataka by starting with the  Bangalore Chapter on 11th June’17 with a team of 8 members. After the continuous efforts, the team brought up a drive under the Project “Sort. Shine. Sustain” and made it a successful event. The team invites more participation. To join them, you can register yourself with us.</p>
         				</div>
@@ -208,9 +214,12 @@
         	</div>
         </div>
     </section>
+    <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve1" role="presentation" aria-hidden="true">
+    	<polygon points="1280 0 1280 70 0 70" fill="rgb(66,0,57)"></polygon>
+    </svg>
     <section id="Work">
     	<div class="ui center aligned container grid">
-        	<h1 class="ui header"> What We Do </h1>
+        	<h1 class="ui header" id="SectionHeader"> What We Do </h1>
         	<div class="row">
         		<div class="sixteen wide mobile tablet eight wide computer column middle aligned EventCard">
         			<h1 class="ui header"> Internships </h1>
@@ -227,7 +236,7 @@
 			</div>
             <div class="row">
             	<div class="sixteen wide mobile tablet eight wide computer column">
-                	<div class="ui raised yellow card">
+                	<div class="ui raised yellow card ">
                     	<div class="image">
                         	<img src="http://via.placeholder.com/100x100" class="ui image middle aligned">
                         </div> 
@@ -238,7 +247,7 @@
                     </div>
                 </div>
                 <div class="sixteen wide mobile tablet eight wide computer column">
-                	<div class="ui raised yellow card">
+                	<div class="ui raised yellow card ">
                     	<div class="image">
                         	<img src="http://via.placeholder.com/100x100" class="ui image middle aligned">
                         </div> 
@@ -250,6 +259,32 @@
                	</div>
         	</div>
         </div>
+    </section>
+    <svg viewBox="0 0 1280 70" preserveAspectRatio="none" id="headerCurve1" role="presentation" aria-hidden="true">
+    	<polygon points="1280 0 1280 70 0 70" fill="rgb(66,0,57)"></polygon>
+    </svg>
+    <section id="ContactUs">
+    	<div class="ui center aligned container grid">
+        	<h1 class="ui header" id="SectionHeader"> Contact Us </h1>
+        	<div class="row">
+        		<div class="sixteen wide mobile tablet eight wide computer column">
+        			<h2 class="ui header middle aligned"><span>Get in Touch</span></h2>
+                    <p> <b>Address :</b> D-109, Andheria Mor, Ambedkar Colony, Chattarpur, New Delhi, India<br />
+                        <b>Email Id :</b> kiratyouthfoundation@gmail.com<br />
+                        <b>Phone No. :</b> (+91) 9999965712, 7838254030, 9560726510
+                    </p>
+        		</div>
+        		<div class="sixteen wide mobile tablet eight wide computer column">
+        			<h2 class="ui header middle aligned"><span>Where you can find us</span></h2>
+                    <div class="middle aligned">
+                    	<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5896.439187794521!2d77.17601603814813!3d28.508332385121616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sAndheria+Mor%2C+Ambedkar+Colony%2C+Chattarpur%2C+New+Delhi%2C+India!5e0!3m2!1sen!2sin!4v1498067550666" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+        		</div>
+        		<a class="ui yellow button middle aligned" id="ContactButton" href="mailto:kiratyouthfoundation@gmail.com" target="_blank">Send Us A Message</a>
+        	</div>
+
+        </div>
+
     </section>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="semantic/dist/semantic.min.js"></script>

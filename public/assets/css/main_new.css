@@ -15,13 +15,17 @@
             justify-content: space-between;
 }
 
-.TeamCard{
+.ui .card{
 	margin-bottom: 1em !important;
 }
 
 .EventCard{
 	margin: 1em 0 !important;
 
+}
+
+#headerCurve1{
+  background-color:#DB2828; 
 }
 
 
@@ -40,12 +44,23 @@
     height: 46px;
 }
 
-#About, #Team, #Events, #Work{
+#About, #Events, #Work, #ContactUs{
 	background-color: #DB2828;
+	min-height: 100vh;
 }
 
-#Events{
+
+#Team, #headerCurve2{
+background-color: #420039;
+}
+
+
+#ContactButton{
 	margin-top: 1em;
+}
+
+#SectionHeader{
+	margin-top: 1em !important;
 }
 .middle.aligned {
     display: -ms-flexbox;

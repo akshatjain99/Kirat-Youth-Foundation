@@ -245,16 +245,39 @@
 
 
 .slider-wrapper{
-  display: flex;
-  width: 100%;
   overflow: hidden;
+  max-height: 500px;
 }
 
-.slider-image{
-  width: 100%;
+.slider-element{
+  width: 20%; 
+  float: left;
 }
 
 
+#figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 30s slidy infinite; 
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+#image-slider-container{
+  min-width: 100vh;
+}
 
 @media (max-width: 991px) {
     #logo-top {

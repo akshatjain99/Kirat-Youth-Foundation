@@ -8,12 +8,13 @@ $(function() {
 
     // create sidebar and attach to menu open
 
-    $('.sidebar-icon > .sidebar.icon').on('click', function() {
-
+    $('.sidebar-icon .sidebar.icon').on('click', function() {
         $('.ui.sidebar').sidebar('toggle');
 
-
     });
+    $('#SideMenu .item').on('click',function() {
+              $('.ui.sidebar').sidebar('hide');
+    })
   //nav.js plugin code
   //  var nav = responsiveNav(".nav-collapse", {
   //      animate: true,
@@ -21,11 +22,10 @@ $(function() {
   //      });
   //  nav.toggle();
 
-});
-
-
-
-   $("a.menuitem").click(function(){
+  $("a.menuitem").click(function(){
    $("a.menuitem.active").removeClass("active");
    $(this).addClass("active");
 });
+});
+
+

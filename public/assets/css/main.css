@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1b222a;
+    background-color: #063770;
 }
 
 .sidebar-icon {
@@ -127,7 +127,7 @@
 
 #logo {
     margin-top: 1em;
-    width: 400px;
+    width: 300px;
     max-width: 100%;
     display: block;
     height: auto;
@@ -167,7 +167,7 @@
 }
 
 #menu {
-    background-color: #1b222a;
+    background-color: #063770;
 }
 
 .hero-image {

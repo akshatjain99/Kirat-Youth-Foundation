@@ -38,7 +38,7 @@
 }
 
 .headerCurve1 {
-    background-color: #5DD39E;
+    background-color: #fcf800;
 }
 
 .card {
@@ -57,7 +57,7 @@
 #Work,
 #Team {
     // background-color: #DB2828;
-    background-color: #5DD39E;
+    background-color: #fcf800;
 }
 
 #about,
@@ -88,8 +88,7 @@
 
 #SectionHeader {
     margin-top: 1rem !important;
-    color: white;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .middle.aligned {
@@ -199,9 +198,9 @@
 }
 
 #headerText {
-    color: white;
+    /*color: white;*/
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 800;
     margin-bottom: 0.5rem;
     // padding-top: 1rem;
 }

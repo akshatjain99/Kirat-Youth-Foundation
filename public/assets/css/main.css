@@ -4,7 +4,7 @@
     -webkit-tap-highlight-color: transparent!important;
 }
 body, p{
-  font-family: 'Josefin Slab', serif !importants;
+  font-family: 'PT Sans', sans-serif !important;
 }
 .top-menu {
     padding-top: 1rem;
@@ -168,7 +168,7 @@ body, p{
 }
 
 #menu {
-    background-color: #063770;
+    background-color: #2185D0;
 }
 
 .hero-image {

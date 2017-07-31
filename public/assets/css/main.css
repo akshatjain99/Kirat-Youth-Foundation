@@ -3,7 +3,9 @@
 *:before {
     -webkit-tap-highlight-color: transparent!important;
 }
-
+body, p{
+  font-family: 'Josefin Slab', serif !importants;
+}
 .top-menu {
     padding-top: 1rem;
     padding-left: 1rem;
@@ -15,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #063770;
+    background-color: #2185D0;
 }
 
 .sidebar-icon {
@@ -128,8 +130,8 @@
     margin-top: 1em;
     width: 300px;
     max-width: 100%;
-    display: block;
     height: auto;
+
 }
 
 #StateImage {

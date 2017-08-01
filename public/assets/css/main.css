@@ -40,8 +40,17 @@ body, p{
 }
 
 .headerCurve1 {
-    background-color: #fcf800;
+    background-color: #fce574;
 }
+
+.headerCurve2 {
+    background-color: #fcd200;
+}
+
+.headerCurve3 {
+    background-color: #ffaa00;
+}
+
 
 .card {
     margin: 0 auto !important;
@@ -55,32 +64,41 @@ body, p{
     height: 46px;
 }
 
-#about,
+/*#about,
 #Work,
 #Team {
     // background-color: #DB2828;
     background-color: #fcf800;
+}*/
+
+#about{
+  background-color: #fce574;
+}
+#Events{
+  background-color: #fcd200;
 }
 
-#about,
-#Team {}
 
 #Work {
     padding-bottom: 4rem;
+    background-color: #ffaa00;
 }
 
+#ContactUs{
+  background-color: #ff935e;
+}
 #about {
     padding-bottom: 4rem;
 }
 
-#Events,
+/*#Events,
 #ContactUs {
     background-color: #0eb89b;
-    // background-color: #2A2D34;
+    // background-color: #2A2D34;*/
 }
 
-.headerCurve2 {
-    background-color: #0eb89b;
+.2{
+  background-color: #fcd200;
 }
 
 #ContactButton {

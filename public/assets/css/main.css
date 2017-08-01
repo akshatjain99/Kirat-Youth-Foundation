@@ -219,14 +219,14 @@ body, p{
 
 #headerText {
     /*color: white;*/
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
     // padding-top: 1rem;
 }
 
 .tagline {
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: rgba(0, 0, 0, 0.87);
 }
 
